@@ -6,7 +6,7 @@ main{
 
 form{
     padding: 12px;
-    background-color: aliceblue;
+    background-color: pink;
 }
 
 aside{
@@ -52,4 +52,9 @@ input[type=number]{
 
 footer{
     text-align: center;
+}
+@media only screen and (max-width:480px) {
+    main{
+        flex-direction: column;
+    }
 }

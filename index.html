@@ -16,9 +16,7 @@
     <main>
         <aside>
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquam fugit, recusandae vitae
-                    voluptas amet, repellat praesentium optio repudiandae voluptatem fuga dolor cumque voluptates autem
-                    nostrum, sequi temporibus accusantium et.</p>
+                <p>Temukan cara mudah dan cepat untuk memantau kesehatan kamu dengan Kalkulator BMI. Cukup masukkan data berat dan tinggi badan. Biar kan alat ini menghitung indeks massa tubuh kamu dengan cepat</p>
             </article>
 
             <form>
@@ -32,29 +30,33 @@
 
                 <div>
                     <h3>Berat Badan</h3>
-                    <input type="number">
+                    <input type="text" id="inputWeight">
+                </div>
+
+                <div>
+                    <h3>Tinggi Badan</h3>
+                    <input type="text" id="inputHeight">
                 </div>
 
                 <div class="form-btn-container">
-                    <button class="button bg-cornsilk">Hitung BMI</button>
+                    <button class="button bg-cornsilk" type="button" onclick="formValidate()">Hitung BMI</button>
                     <button class="button bg-reset">Reset</button>
                 </div>
             </form>
 
             <article>
                 <header>
-                    <h2>Form Information</h2>
+                    <h2>Keunggulan Fitur</h2>
                 </header>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sed saepe velit, perferendis quis esse
-                    est fugit? Ipsum necessitatibus illo soluta modi, adipisci vitae, ab quam at enim, quaerat libero!
+                <p>Kalkulator akan memberi anda gambaran tentang perbandingan berat badan anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan anda (dalam kilogram) dibagi dengan kuadrat tinggi badan anda (dalam meter) atau BMI = Kg/M2.
                 </p>
             </article>
         </aside>
 
         <aside>
             <section>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi exercitationem cupiditate itaque sequi sapiente ut! Dolor molestias voluptatibus impedit, repellendus odit culpa? Ullam odit, praesentium nobis aliquid quo laudantium ab.</p>
+                <p>Hitung BMI kamu untuk melihat hasil</p>
             </section>
         </aside>
 
@@ -63,6 +65,8 @@
     <footer>
         <p>Made by Louis</p>
     </footer>
+
+    <script src="js\script.js"></script>
 </body>
 
 </html>
